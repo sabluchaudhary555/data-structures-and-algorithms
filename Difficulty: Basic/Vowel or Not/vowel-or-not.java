@@ -1,9 +1,9 @@
 class Solution {
     String isVowel(char c) {
-        // Convert to lowercase to check both cases at once
+        // 1. Convert to lowercase to check both 'A' and 'a' at once
         char lowerC = Character.toLowerCase(c);
         
-        // Check if character matches any vowel
+        // 2. Check if the character matches any of the five vowels
         if (lowerC == 'a' || lowerC == 'e' || lowerC == 'i' || lowerC == 'o' || lowerC == 'u') {
             return "YES";
         } else {
