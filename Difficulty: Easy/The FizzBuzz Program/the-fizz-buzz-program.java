@@ -1,20 +1,21 @@
-class Solution {
-    public static void fizzBuzz(int number) {
-        // Check divisibility by both 3 and 5 first (e.g., 15, 30)
-        if (number % 3 == 0 && number % 5 == 0) {
+import java.util.*;
+
+class GFG {
+    public static void main(String[] args) {
+        Scanner sc = new Scanner(System.in);
+        
+        // 1. FizzBuzz only gives ONE number as input
+        int n = sc.nextInt(); 
+
+        // 2. Check conditions (Check for both 3 and 5 FIRST)
+        if (n % 3 == 0 && n % 5 == 0) {
             System.out.println("FizzBuzz");
-        } 
-        // Then check if divisible by 3 only
-        else if (number % 3 == 0) {
+        } else if (n % 3 == 0) {
             System.out.println("Fizz");
-        } 
-        // Then check if divisible by 5 only
-        else if (number % 5 == 0) {
+        } else if (n % 5 == 0) {
             System.out.println("Buzz");
-        } 
-        // If none of the above, print the number itself
-        else {
-            System.out.println(number);
+        } else {
+            System.out.println(n);
         }
     }
 }
