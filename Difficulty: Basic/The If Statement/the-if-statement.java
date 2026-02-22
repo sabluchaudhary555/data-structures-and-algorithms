@@ -1,12 +1,13 @@
-class Solution {
-    public static void utility(int number) {
+import java.util.*;
+
+public class Solution {
+    public static void solve() {
+        Scanner sc = new Scanner(System.in);
+        int n = sc.nextInt();
         
-        // Write your if statement here
-        if (number > 100) {
+        if (n > 100) {
             System.out.println("Big");
         }
-        
-        // This statement will be printed regardless
         System.out.println("Number");
     }
 }
