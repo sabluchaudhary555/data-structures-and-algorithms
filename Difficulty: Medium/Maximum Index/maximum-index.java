@@ -1,5 +1,5 @@
 class Solution {
-    int maxIndexDiff(int[] arr) {
+    int maxIndexDiff(int arr[]) {
         int n = arr.length;
         int[] leftMin = new int[n];
         int[] rightMax = new int[n];
