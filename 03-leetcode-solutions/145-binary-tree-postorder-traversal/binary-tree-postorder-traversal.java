@@ -23,7 +23,7 @@ class Solution {
     private void postorder(TreeNode node, List<Integer> result) {
         if (node == null) return;
         postorder(node.left, result);
-        postorder(node.right, result);
+        postorder(node.right, result);    
         result.add(node.val);
     }
 }
