@@ -82,7 +82,7 @@ python filename.py
 Recommended order for beginners:
 1. Start with **01-data-structures** to understand fundamentals
 2. Move to **02-algorithms** to learn algorithmic techniques
-3. Practice with **03-leetcode-solutions** and **04-gfg-solutions**
+3. Practice with leetcode and gfg
 
 ## 🤝 Contributing
 
@@ -104,7 +104,7 @@ Contributions are welcome! Please feel free to submit a Pull Request.
 ## 🎯 Goals
 
 - Build a comprehensive DSA reference
-- Solve 500+ coding problems
+- Solve 400+ coding problems
 - Master common interview patterns
 - Contribute to open-source learning
 
