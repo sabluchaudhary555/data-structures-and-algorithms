@@ -1,12 +1,12 @@
-# IntelliJ IDEA project folders
+# Ignore IntelliJ IDEA project folders
 .idea/
 
-# Individual project files
+# Ignore individual project files
 *.iml
 *.iws
 *.ipr
 
-# Build directories
+# Ignore build directories (important for Java)
 out/
 target/
 bin/
